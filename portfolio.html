@@ -25,7 +25,6 @@
         <a class="navbar-brand" href="#"><img src="img/logo.png"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-          <span style=" transform: matrix (1,0,0,1,-1.6,0);"></span>
         </button>
         <!--ml-auto = auto margin left (move to right auto) active class-->
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -34,7 +33,7 @@
               <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -50,88 +49,45 @@
       </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid">
-      <img src="img/font.jpg" class=" w-100 " alt="..." />
-      <div class="carousel-caption">
-        <h1 class="display-2">Showcase</h1>
-        <h3 class="lead">Most Recent Projects</h3>
-        <a href="portfolio.html"><button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button></a>
-      </div>
-    </div>
+    <!--Card Section-->
 
-    <!--Portfolio Section-->
     <div class="container-fluid padding">
-      <h1 class="text-center">Portfolio</h1>
-      <div class="row text-center padding">
-        <!--add font awsome logo-->
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <i class="fab fa-html5"></i>
-          <h3>HTML5 & CSS</h3>
-          <h3>Bootstrap</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates recusandae iste dolorem! Ea rem ipsa eaque? Voluptatem necessitatibus amet quidem quae! Deserunt nulla accusantium id
-            minima officiis est quisquam cupiditate.
-          </p>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <i class="fab fa-js"></i>
-          <h3>JavaScript</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates recusandae iste dolorem! Ea rem ipsa eaque? Voluptatem necessitatibus amet quidem quae! Deserunt nulla accusantium id
-            minima officiis est quisquam cupiditate.
-          </p>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-          <i class="fas fa-ghost"></i>
-          <h3>Games</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates recusandae iste dolorem! Ea rem ipsa eaque? Voluptatem necessitatibus amet quidem quae! Deserunt nulla accusantium id
-            minima officiis est quisquam cupiditate.
-          </p>
-        </div>
-      </div>
-      <hr class="my-4" />
-    </div>
-
-    <!--About me Section-->
-    <div class="container-fluid padding  ">
-      <div class="row padding mx-auto">
-        <div class="col-lg-3 col-md-4 col-sm-12">
-          <img src="img/ek.JPG" class=" rounded-circle" width="200px" height="200px" />
-        </div>
-        <div class="col-lg-9 col-md-8 col-sm-12">
-          <h2 class="blue_h2">Hi, I'm Elvy <img src="https://s.w.org/images/core/emoji/11/svg/1f44b.svg" width="30px" height="30px" /></h2>
-          <p>Font-end Software Engineer form Seattle, WA and I like to build things</p>
-          <p></p>
-
-          <br />
-          <p>
-            Want to get in touch?
-            <a href="#"><strong>Let's talk </strong></a>
-            <img src="https://s.w.org/images/core/emoji/11/svg/1f604.svg" width="20px" height="20px" />
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!--hidden buttom drop down manu emoji in the container row-col-->
-    <button class="fun" data-toggle="collapse" data-target="#emoji">Click for Resume</button>
-    <div id="emoji" class="collapse">
-      <div class="container-fluid padding">
-        <div class="row text-center">
-          <div class="col-sm-6 col-md-3">
-            <img src="img/gif/panda.gif" class="gif" />
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/Hangman img.jpg" />
+            <div class="card-body">
+              <h4 class="card-title">Hangman</h4>
+              <p class="card-text">
+                Guess words games that increase your knowlage of animal vocaburay.
+              </p>
+              <a href="Portfolio/Word-Guess-Game/index.html" class="btn btn-outline-secondary">Play !</a>
+            </div>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="img/gif/chicken.gif" class="gif" />
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="Portfolio/unit-4-game/assets/images/background.jpg" />
+            <div class="card-body">
+              <h4 class="card-title">Star War RPG</h4>
+              <p class="card-text">
+                Let's have some actions with Star War RPG!
+              </p>
+              <a href="Portfolio/unit-4-game/index.html" class="btn btn-outline-secondary">Play !</a>
+            </div>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="img/gif/unicorn.gif" class="gif" />
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="img/gif/poo.gif" class="gif" />
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/team3.png" />
+            <div class="card-body">
+              <h4 class="card-title">Sam Ho</h4>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque odit maxime deserunt porro, enim impedit sequi consectetur, blanditiis aliquam repellendus excepturi perspiciatis fugit
+                fugiat eaque corrupti facere distinctio! Nulla, quisquam!
+              </p>
+              <a href="contact.html" class="btn btn-outline-secondary">See Profile</a>
+            </div>
           </div>
         </div>
       </div>
@@ -180,5 +136,3 @@
     ></script>
   </body>
 </html>
-
-<!--See tutolio https://youtu.be/9cKsq14Kfsw -->>
