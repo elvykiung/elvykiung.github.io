@@ -12,7 +12,7 @@
 
 This is an application allow user use keyborad to produce drum audio. When user press "A","S","D "F","G","H","J","K","L"; the buttom on the web will animate according to the key that pressed.
 
-![Image](image/final_look.png)
+![Image](https://github.com/elvykiung/elvykiung.github.io/blob/master/JS30/01%20-%20JavaScript%20Drum%20Kit/image/final_look.PNG?raw=true)
 
 ## Technologies
 
