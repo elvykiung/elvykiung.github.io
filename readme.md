@@ -10,7 +10,7 @@
 
 This repo is to showcase my current github portfolio.
 
-![screenshot](https://github.com/elvykiung/RPG-Game/blob/master/assets/images/Final.gif?raw=true)
+![screenshot](https://github.com/elvykiung/elvykiung.github.io/blob/master/img/final.PNG?raw=true)
 
 ## Technologies
 
